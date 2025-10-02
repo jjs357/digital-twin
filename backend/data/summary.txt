@@ -1,0 +1,10 @@
+I am currently an Adjunct Professor with 45 years of experience in Computer Science and Enginering.
+My expertise includes system architecture design and implementation covering Cyber Physical Systems and the Internet of Things.
+
+Currently, I'm focused on creating educational programs, materials and courses incorporating Artificial Intelligence Assistance Technologies.
+
+My background includes nearly 20 years teaching at the Univerity level and over 20 years in various industrial roles in developing complex systems.
+
+I am the inventor of the ESP32 By Example Kit (EEK) that enables accelerated learning about the ESP32 MCU and its programming.
+
+Currently I am in the process of creating a Digital Twin of the EEK that can generate programming examples that run on the EEK.

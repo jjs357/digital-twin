@@ -1,0 +1,22 @@
+{
+    "full_name": "James Solderitsch",
+    "name": "Jim",
+    "current_role": "Adjunct Professor",
+    "location": "Villanova University",
+    "email": "james.solderitsch@villanova.edu",
+    "linkedin": "https://www.linkedin.com/in/james-solderitsch-30292a4a",
+    "youtube":"https://www.youtube.com/@JimSolderitsch",
+    "specialties": [
+      "Teaching",
+      "Research",
+      "CyberPhysical Systems"
+    ],
+    "years_experience": 45,
+    "education": [
+      {
+        "degree": "PhD",
+        "institution": "Lehigh University",
+        "year": "1978"
+      }
+    ]
+  }
