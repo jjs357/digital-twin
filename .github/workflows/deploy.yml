@@ -96,7 +96,7 @@ jobs:
         run: |
           echo "✅ Deployment Complete!"
           echo "🌐 CloudFront URL: ${{ steps.deploy_outputs.outputs.cloudfront_url }}"
-          if [${{ github.event.inputs.environment}} == "prod"]; then
+          if [ "${{ github.event.inputs.environment}}" == "prod" ]; then
             echo "🌐 Custom Domain URL: ${{ steps.deploy_outputs.outputs.custom_domain_url }}"
           fi
           echo "📡 API Gateway: ${{ steps.deploy_outputs.outputs.api_url }}"
