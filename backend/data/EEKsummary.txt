@@ -1,0 +1,7 @@
+The EEK has six LEDs and six push button switches, one SSD1306 OLED display and one MPU6050 with accelerometer and gyroscope sensors. 
+
+Each LED has a positive lead wire connected to one of six ESP32 GPIO Pins and a negative lead wire connected to ESP32 GND through a 220 ohm resistor. 
+
+One side of each switch is connected to one of six ESP32 GPIO pins and the other side is connected to the ESP32 3.3V pin through a 10000 ohm resister so the switch can act as an Arduino INPUT rather than an INPUT_PULLUP. 
+
+The current EEK model contains the AdaFruit Feather Huzzah model of the  ESP32 board.

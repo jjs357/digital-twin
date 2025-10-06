@@ -14,9 +14,22 @@
     "years_experience": 45,
     "education": [
       {
-        "degree": "PhD",
+        "degree": "BS",
+        "field": "Mathematics",
+        "institution": "Villanova University",
+        "year": "1971"
+      },      
+      {
+        "degree": "MS",
+        "field": "Mathematics",
         "institution": "Lehigh University",
-        "year": "1978"
+        "year": "1973"
+      },      
+      {
+        "degree": "PhD",
+        "field": "Mathematics",
+        "institution": "Lehigh University",
+        "year": "1977"
       }
     ]
   }

@@ -1,0 +1,67 @@
+{
+    "board_name": "EEK",
+    "leds" : [
+        {
+            "name" : "Top Red",
+            "color" : "red",
+            "gpio" : "26"
+        },
+        {
+            "name" : "Blue",
+            "color" : "blue",
+            "gpio" : "25"
+        },
+        {
+            "name" : "Top Green",
+            "color" : "green",
+            "gpio" : "21"
+        },
+        {
+            "name" : "Bottom Red",
+            "color" : "red",
+            "gpio" : "27"
+        },
+        {
+            "name" : "Yellow",
+            "color" : "yellow",
+            "gpio" : "15"
+        },
+        {
+            "name" : "Bottom Green",
+            "color" : "green",
+            "gpio" : "4"
+        }
+    ],
+    "switches" : [
+        {
+            "name" : "Top Right",
+            "gpio" : "34",
+            "type" : "input"
+        },
+        {
+            "name" : "Top Left",
+            "gpio" : "33",
+            "type" : "input"
+        },
+        {
+            "name" : "Middle Right",
+            "gpio" : "32",
+            "type" : "input"
+        },
+        {
+            "name" : "Middle Left",
+            "gpio" : "39",
+            "type" : "input"
+        },
+        {
+            "name" : "Bottom Right",
+            "gpio" : "14",
+            "type" : "input"
+        },
+        {
+            "name" : "Bottom Left",
+            "gpio" : "36",
+            "type" : "input"
+        }
+    ]
+}
