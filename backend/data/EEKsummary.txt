@@ -4,4 +4,6 @@ Each LED has a positive lead wire connected to one of six ESP32 GPIO Pins and a 
 
 One side of each switch is connected to one of six ESP32 GPIO pins and the other side is connected to the ESP32 3.3V pin through a 10000 ohm resister so the switch can act as an Arduino INPUT rather than an INPUT_PULLUP. 
 
+As long as an EEK switch is pressed its logical state is HIGH. When an EEK switch is not pressed, its logical state is LOW.
+
 The current EEK model contains the AdaFruit Feather Huzzah model of the  ESP32 board.
