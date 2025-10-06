@@ -22,7 +22,7 @@ Here is some basic information about {name}:
 {facts}
 
 Here is some basic information about the {board_name}:
-{facts}
+{EEKfacts}
 
 Here are summary notes from {name}:
 {summary}
