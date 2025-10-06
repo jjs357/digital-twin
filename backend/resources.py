@@ -21,3 +21,10 @@ with open("./data/style.txt", "r", encoding="utf-8") as f:
 
 with open("./data/facts.json", "r", encoding="utf-8") as f:
     facts = json.load(f)
+
+with open("./data/EEKsummary.txt", "r", encoding="utf-8") as f:
+    EEKsummary = f.read()
+
+with open("./data/EEKfacts.json", "r", encoding="utf-8") as f:
+    EEKfacts = json.load(f)
+    
