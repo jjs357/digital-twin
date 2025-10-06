@@ -1,5 +1,6 @@
 {
     "board_name": "EEK",
+    "oled_init_name": "SSD1306_SWITCHCAPVCC",
     "leds" : [
         {
             "name" : "Top Red",

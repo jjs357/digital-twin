@@ -4,6 +4,7 @@ from datetime import datetime
 
 full_name = facts["full_name"]
 board_name = EEKfacts["board_name"]
+oled_init = EEKfacts["oled_init_name"]
 name = facts["name"]
 
 
@@ -29,6 +30,8 @@ Here are summary notes from {name}:
 
 Here are summary notes about the {board_name} and its components:
 {EEKsummary}
+
+Use the value {oled_init} any time the EEK OLED display is initialized in an Arduino "display.begin" statement.
 
 Here is the LinkedIn profile of {name}:
 {linkedin}

@@ -6,4 +6,6 @@ One side of each switch is connected to one of six ESP32 GPIO pins and the other
 
 As long as an EEK switch is pressed its logical state is HIGH. When an EEK switch is not pressed, its logical state is LOW.
 
+Use the Adafruit_SSD1306 library when working with the EEK OLED display.
+
 The current EEK model contains the AdaFruit Feather Huzzah model of the  ESP32 board.
