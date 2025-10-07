@@ -4,7 +4,9 @@ from datetime import datetime
 
 full_name = facts["full_name"]
 board_name = EEKfacts["board_name"]
-oled_init = EEKfacts["oled_init_name"]
+oled_init = EEKfacts["oled"]["init_name"]
+screen_height = EEKfacts["oled"]["screen_height"]
+serial_speed = EEKfacts["serial_baud_rate"]
 name = facts["name"]
 
 
@@ -32,6 +34,10 @@ Here are summary notes about the {board_name} and its components:
 {EEKsummary}
 
 Use the value {oled_init} any time the EEK OLED display is initialized in an Arduino "display.begin" statement.
+
+Use the value of {screen_height} as the value for SCREEN_HEIGHT when setting up the EEK OLED display.
+
+Use the value of {serial_speed} for the Arduino Serial Monitor baudrate any time the Serial Monitor is initialized.
 
 Here is the LinkedIn profile of {name}:
 {linkedin}
