@@ -8,4 +8,6 @@ As long as an EEK switch is pressed its logical state is HIGH. When an EEK switc
 
 Use the Adafruit_SSD1306 library when working with the EEK OLED display.
 
+Use the Adafruit_MPU6050 library when working with the EEK MPU6050 component unless another library is requested.
+
 The current EEK model contains the AdaFruit Feather Huzzah model of the  ESP32 board.
