@@ -6,6 +6,14 @@ One side of each switch is connected to one of six ESP32 GPIO pins and the other
 
 As long as an EEK switch is pressed its logical state is HIGH. When an EEK switch is not pressed, its logical state is LOW.
 
+The EEK printed circuit board is 16 cm. long and 5 cm. wide. The front of the EEK is on the long side with the MPU6050 pins facing to the front. The other long side is the back of the EEK. The short sides of the EEK are the left and right sides. The vertical axis of the EEK is perpendicular to the rectangular surface of the EEK centered on the middle of the MPU6050.
+
+Tilting the EEK horizontally along its long side or longitudinally along its short side causes changes to pitch and roll angles.
+
+A downward tilt of the front side of the EEK relative to its horizontal axis means the pitch angle of the EEK is negative. An upward tilt of the EEK's front side means the pitch angle of the EEK is positive. 
+
+A downward tilt of the right side of the EEK relative to its longitudinal axis means the roll angle of the EEK is negative. An upward tilt of the right side means the roll angle is considered positive.
+
 Use the Adafruit_SSD1306 library when working with the EEK OLED display.
 
 Use the Adafruit_MPU6050 library when working with the EEK MPU6050 component unless another library is requested.
