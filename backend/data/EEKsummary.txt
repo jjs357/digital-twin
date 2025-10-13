@@ -12,14 +12,14 @@ Tilting the EEK horizontally along its long side or longitudinally along its sho
 
 Rotating the EEK around its vertical axis causes changes to yaw angles.
 
-A downward tilt of the front side of the EEK relative to its horizontal axis means the pitch angle of the EEK is negative. An upward tilt of the EEK's front side means the pitch angle of the EEK is positive. 
+A downward tilt of the front side of the EEK relative to its horizontal axis means the pitch angle of the EEK is positive. An upward tilt of the EEK's front side means the pitch angle of the EEK is negative. 
 
 A downward tilt of the right side of the EEK relative to its longitudinal axis means the roll angle of the EEK is negative. An upward tilt of the right side means the roll angle is considered positive.
 
-An EEK clockwise rotation relative to its vertical axis means the yaw angle is negative. An EEK counterclockwise rotation relative to its vertical axis means the yaw angle is positive.
+An EEK clockwise rotation relative to its vertical axis means the yaw angle is positive. An EEK counterclockwise rotation relative to its vertical axis means the yaw angle is negative.
 
 Use the Adafruit_SSD1306 library when working with the EEK OLED display.
 
-Use the Adafruit_MPU6050 library when working with the EEK MPU6050 component unless another library is requested.
+Use the MPU6050 library by Electronic Cats when working with the EEK MPU6050 component unless another library is requested.
 
 The current EEK model contains the AdaFruit Feather Huzzah model of the  ESP32 board.
