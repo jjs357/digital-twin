@@ -16,7 +16,7 @@ A downward tilt of the front side of the EEK relative to its horizontal axis mea
 
 A downward tilt of the right side of the EEK relative to its longitudinal axis means the roll angle of the EEK is negative. An upward tilt of the right side means the roll angle is considered positive.
 
-An EEK rotation to the right (clockwise) relative to its vertical axis means the yaw angle is positive. An EEK rotation to the left (counter-clockwise) relative to its vertical axis means the yaw angle is negative.
+An EEK clockwise rotation relative to its vertical axis means the yaw angle is positive. An EEK counterclockwise rotation relative to its vertical axis means the yaw angle is negative.
 
 Use the Adafruit_SSD1306 library when working with the EEK OLED display.
 
