@@ -3,7 +3,8 @@
     "serial_baud_rate": "115200",
     "oled" : {
         "init_name": "SSD1306_SWITCHCAPVCC",
-        "screen_height": "32"
+        "screen_height": "32",
+        "screen_width": "128"
     },
     "leds" : [
         {
